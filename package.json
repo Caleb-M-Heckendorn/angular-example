@@ -3,27 +3,9 @@
   "version": "1.0.0",
   "license": "Apache-2.0",
   "author": {
-    "name": "Erik Clevenger",
-    "email": "erik@modwrk.com"
+    "name": "Caleb Heckendorn",
+    "email": "programmingPianist@gmail.com"
   },
-  "contributors": [
-    {
-      "name": "Eric Debelak",
-      "email": "eric@11online.us"
-    },
-    {
-      "name": "George Kephart",
-      "email": "gkephart@cnm.edu"
-    },
-    {
-      "name": "Valente Meza",
-      "email": "valebmeza@gmail.com"
-    },
-    {
-      "name": "Rochelle Lewis",
-      "email": "rlewis37@cnm.edu"
-    }
-  ],
   "scripts": {
     "build": "rimraf public_html/dist && tsc && webpack --config webpack/webpack.live.js --progress --profile --bail",
     "start": "rimraf public_html/dist && webpack-dev-server --config webpack/webpack.dev.js --inline --progress --port 7272"
